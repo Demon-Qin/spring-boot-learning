@@ -1,4 +1,4 @@
-package soft1921.boot.jpa;
+package online.daobao.boot.jpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

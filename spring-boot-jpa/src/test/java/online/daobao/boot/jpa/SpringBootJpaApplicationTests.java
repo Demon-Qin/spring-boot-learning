@@ -1,4 +1,4 @@
-package soft1921.boot.jpa;
+package online.daobao.boot.jpa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
