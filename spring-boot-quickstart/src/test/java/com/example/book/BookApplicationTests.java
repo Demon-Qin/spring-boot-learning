@@ -1,10 +1,10 @@
-package soft1921.bootquickstart;
+package com.example.book;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootQuickstartApplicationTests {
+class BookApplicationTests {
 
     @Test
     void contextLoads() {
