@@ -19,32 +19,10 @@ class TeacherMapperTest {
     private TeacherMapper teacherMapper;
 
     @Test
-    void deleteByPrimaryKey() {
+    void  getTeacherOneByOne() {
+        Teacher teacher = teacherMapper.getTeacherOneByOne(1);
+        System.out.println(teacher);
     }
 
-    @Test
-    void insert() {
-    }
 
-    @Test
-    void insertSelective() {
-    }
-
-    @Test
-    void selectByPrimaryKey() {
-    }
-
-    @Test
-    void updateByPrimaryKeySelective() {
-    }
-
-    @Test
-    void updateByPrimaryKey() {
-    }
-
-    @Test
-    void selectAll() {
-        List<Teacher> teachers = teacherMapper.selectAll();
-        System.out.println(teachers);
-    }
 }
